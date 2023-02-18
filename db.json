@@ -1,36 +1,28 @@
 {
   "materials": [
     {
-      "id": 2,
-      "name": "Gravel",
-      "color": "Green",
-      "price": "10",
-      "volume": "10000",
-      "date": "2/20/2023"
-    },
-    {
-      "id": 3,
-      "name": "Dirt",
-      "color": "Brown",
-      "price": "10",
-      "volume": "10000",
-      "date": "2/20/2023"
-    },
-    {
       "name": "Sand",
-      "color": "#9f0500",
-      "price": "10",
+      "color": "#c45100",
+      "price": "15",
       "volume": "1000",
-      "date": "10/12/1222",
-      "id": 5
+      "date": "3/1/2023",
+      "id": 1
     },
     {
-      "name": "Hair",
-      "color": "#808080",
-      "price": "300",
-      "volume": "20",
-      "date": "3/1/23",
-      "id": 6
+      "name": "Gravel",
+      "color": "#68bc00",
+      "price": "40",
+      "volume": "400",
+      "date": "3/3/2023",
+      "id": 2
+    },
+    {
+      "name": "Marbel",
+      "color": "#333333",
+      "price": "1",
+      "volume": "1",
+      "date": "2/19/2023",
+      "id": 3
     }
   ]
 }

@@ -40,7 +40,7 @@ const MaterialListing = () => {
                 <div className="card-body">
                     <h1>Materials</h1>
                     <div className="divbtn">
-                        <Link to="material/create" className="btn-add">Add(+)</Link>
+                        <Link to="material/create" className="btn-add">Add</Link>
                     </div>
                     <table className="table table-bordered">
                         <thead className="bg-dark text-white">
@@ -64,9 +64,9 @@ const MaterialListing = () => {
                                         <td>{item.price}</td>
                                         <td>{item.volume}</td>
                                         <td>{item.date}</td>
-                                        <td><a onClick={() => { LoadEdit(item.id) }} className="btn">Edit</a>
-                                            <a onClick={() => { Removefunction(item.id) }} className="btn-delete">Delete</a>
-                                            <a onClick={() => { LoadDetail(item.id) }} className="btn">Details</a>
+                                        <td><button onClick={() => { LoadEdit(item.id) }} className="btn">Edit</button>
+                                            <button onClick={() => { Removefunction(item.id) }} className="btn-delete">Delete</button>
+                                            <button onClick={() => { LoadDetail(item.id) }} className="btn">Details</button>
                                         </td>
                                     </tr>
 
@@ -76,7 +76,7 @@ const MaterialListing = () => {
                         </tbody>
 
                     </table>
-                    <p>  Total Price For Materials: {materialData && materialData.reduce((sum, i) => (sum += i.volume * i.price), 0)}</p>
+                    <p>  Total Price For Materials: ${materialData && materialData.reduce((sum, i) => (sum += i.volume * i.price), 0)}</p>
                 </div>
             </div>
         </div >

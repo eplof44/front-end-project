@@ -101,7 +101,7 @@ const MaterialEdit = () => {
                                     <div className="col-lg-12">
                                         <div className="form-group">
                                             <button className="btn" type="submit">Save</button>
-                                            <Link to="/" className="btn">Back</Link>
+                                            <Link to="/" className="btn-back">Back</Link>
                                         </div>
                                     </div>
 

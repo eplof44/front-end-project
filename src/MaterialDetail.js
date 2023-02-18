@@ -35,7 +35,7 @@ const MaterialDetail = () => {
                             <h5>Price (per m3) : {materialData.price}</h5>
                             <h5>Volume (m3) : {materialData.volume}</h5>
                             <h5>Date : {materialData.date}</h5>
-                            <Link className="btn" to="/">Back to Listing</Link>
+                            <Link className="btn-back" to="/">Back to Listing</Link>
                         </div>
                     }
                 </div>

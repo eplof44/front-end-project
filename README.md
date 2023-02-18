@@ -3,15 +3,28 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## About
-A llows users to create and edit a catalog of materials for a
-construction project.
+Allows users to create and edit a catalog of materials for a construction project. 
 
+Technology Used:
 Front-end: React 
 Back-end: json-server
+
+More details: I made sure to have all basic CRUD features working before moving on to work on styling, testing, adding the color picker. With more time to work on this I would enhance much of the following:
+-error handling
+-fine tune functionality (headers of table to not load if no materials present)
+-validation for inputs (date, price, amount)
+-styling for inputs (date, price, amount)
+-styling in general (I decided to go forgo much of the styling to focus on functionality)
+-more gracefully integrating the color picker
+-more unit tests
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm i`
+ 
+Get all necessary packages
 
 ### `npm start`
 
