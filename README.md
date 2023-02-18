@@ -10,14 +10,15 @@ Front-end: React
 Back-end: json-server
 Testing: jest
 
-More details: I made sure to have all basic CRUD features working before moving on to work on styling, testing, adding the color picker. With more time to work on this I would enhance much of the following:
--error handling
--fine tune functionality (headers of table to not load if no materials present)
--validation for inputs (date, price, amount)
--styling for inputs (date, price, amount)
--styling in general (I decided to go forgo much of the styling to focus on functionality)
--more gracefully integrating the color picker
--more unit tests
+More details: I made sure to have all basic CRUD features working before moving on to work on styling, testing, adding the color picker.\ 
+With more time to work on this I would enhance much of the following:\
+-error handling\
+-fine tune functionality (headers of table to not load if no materials present)\
+-validation for inputs (date, price, amount)\
+-styling for inputs (date, price, amount)\
+-styling in general (I decided to go forgo much of the styling to focus on functionality)\
+-more gracefully integrating the color picker\
+-more unit tests\
 
 Outstanding questions - Most of my outstanding questions involve the user experience and how that would change or enhance features. Who the user of this application? Why are they able to change the pricing? Should these prices be fixed or are they just allowed to add by price which would then match an allowed volume?
 
