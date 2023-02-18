@@ -5,11 +5,6 @@ const MaterialListing = () => {
 
     const [materialData, setMaterialData] = useState(null);
     const navigate = useNavigate();
-    // console.log(materialData)
-    // const getTotalQuantity = (materialData) => {
-    //     materialData.reduce((total, item) => item.quantity + total, 0)
-    // }
-    // console.log(getTotalQuantity)
 
     const LoadDetail = (id) => {
         navigate("/material/detail/" + id);
@@ -45,7 +40,7 @@ const MaterialListing = () => {
                 <div className="card-body">
                     <h1>Materials</h1>
                     <div className="divbtn">
-                        <Link to="material/create" className="btn btn-success">Add(+)</Link>
+                        <Link to="material/create" className="btn-add">Add(+)</Link>
                     </div>
                     <table className="table table-bordered">
                         <thead className="bg-dark text-white">
@@ -69,9 +64,9 @@ const MaterialListing = () => {
                                         <td>{item.price}</td>
                                         <td>{item.volume}</td>
                                         <td>{item.date}</td>
-                                        <td><a onClick={() => { LoadEdit(item.id) }} className="btn btn-success">Edit</a>
-                                            <a onClick={() => { Removefunction(item.id) }} className="btn btn-danger">Remove</a>
-                                            <a onClick={() => { LoadDetail(item.id) }} className="btn btn-primary">Details</a>
+                                        <td><a onClick={() => { LoadEdit(item.id) }} className="btn">Edit</a>
+                                            <a onClick={() => { Removefunction(item.id) }} className="btn-delete">Delete</a>
+                                            <a onClick={() => { LoadDetail(item.id) }} className="btn">Details</a>
                                         </td>
                                     </tr>
 

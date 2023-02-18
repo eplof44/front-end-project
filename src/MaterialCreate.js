@@ -84,8 +84,8 @@ const MaterialCreate = () => {
 
                                     <div className="col-lg-12">
                                         <div className="form-group">
-                                            <button className="btn btn-success" type="submit">Save</button>
-                                            <Link to="/" className="btn btn-danger">Back</Link>
+                                            <button className="btn" type="submit">Save</button>
+                                            <Link to="/" className="btn">Back</Link>
                                         </div>
                                     </div>
 
