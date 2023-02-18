@@ -1,0 +1,36 @@
+{
+  "materials": [
+    {
+      "id": 2,
+      "name": "Gravel",
+      "color": "Green",
+      "price": "10",
+      "volume": "10000",
+      "date": "2/20/2023"
+    },
+    {
+      "id": 3,
+      "name": "Dirt",
+      "color": "Brown",
+      "price": "10",
+      "volume": "10000",
+      "date": "2/20/2023"
+    },
+    {
+      "name": "Sand",
+      "color": "#9f0500",
+      "price": "10",
+      "volume": "1000",
+      "date": "10/12/1222",
+      "id": 5
+    },
+    {
+      "name": "",
+      "color": "",
+      "price": "2",
+      "volume": "1",
+      "date": "",
+      "id": 6
+    }
+  ]
+}
