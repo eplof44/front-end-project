@@ -75,7 +75,8 @@ const MaterialEdit = () => {
                                                 onChange={(color) => {
                                                     setColor(color.hex);
                                                 }}
-                                            />                                        </div>
+                                            />
+                                        </div>
                                     </div>
 
                                     <div className="col-lg-12">
@@ -91,6 +92,7 @@ const MaterialEdit = () => {
                                             <input value={volume} onChange={e => setVolume(e.target.value)} className="form-control"></input>
                                         </div>
                                     </div>
+
                                     <div className="col-lg-12">
                                         <div className="form-group">
                                             <label>Date</label>
@@ -104,15 +106,10 @@ const MaterialEdit = () => {
                                             <Link to="/" className="btn-back">Back</Link>
                                         </div>
                                     </div>
-
                                 </div>
-
                             </div>
-
                         </div>
-
                     </form>
-
                 </div>
             </div>
         </div>
